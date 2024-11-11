@@ -1,0 +1,27 @@
+China: 50Hz
+Argentina: 50Hz
+
+VDC: Volts em Corrente Contínua
+
+VAC: Volts em Corrente Alternada (~)
+
+----------------------------------------------------------------------------
+'127V'
+
+Fase: sempre do lado esquerdo
+
+Neutro: sempre vai ser 0V
+
+Terra: sempre tá no meio
+*obrigação do morador fazer o Terra na própria residência*
+
+----------------------------------------------------------------------------
+'127/220V'
+
+Fase: pinos da direta e esquerda
+
+Terra: sempre no meio
+
+Fase 127V - Terra = 127V
+Fase 220V - Terra = 220V
+
