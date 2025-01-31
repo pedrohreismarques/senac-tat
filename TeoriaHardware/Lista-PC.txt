@@ -1,0 +1,16 @@
+ Processador (AMD ou Intel)*
+Intel - K desbloqueado Overclock
+        F não tem grafico integrado
+        H - notebook
+ Placa Mãe (Rede e som)*
+  Intel (H - B - Z)
+  AMD   (A - B - X)
+ Cooler (Air - Water)* (Processador pode vir com o Cooler BOX)
+ Armazenamento (HD - SSD SATA - SSD Nvme)*
+ Memória RAM (DDR4 ou DDR5)*
+ Placa de Vídeo *
+       Integrado (vem com o Processador) Intel (não F) AMD (G)
+   Dedicado (Placa) NVIDIA (GTX ou RTX) AMD (Radeon RX)
+ Fonte *
+ Gabinete
+ * Wifi (placa ou USB) 

@@ -1,0 +1,32 @@
+Aula 2 
+
+Atlhon (Simples)
+Ryzen 3 (Entrada)
+Ryzen 5 (Intermediario)
+Ryzen 7 (Topo de Linha)
+Ryzen 9 (Trabalho Pesado)
+
+Frequencia - 
+Hz (0 ou 1 por segundo)
+Khz
+Mhz 
+Ghz
+
+G - Grafico Integrado
+X - CLOCK +
+F - Não te placa de vídeo integrada
+K - Pode fazer overclock da CPU acima da sua frequência de fábrica e têm gráficos integrados 
+XT - Oferece um leve aumento de desempenho em relação aos modelos "X" originais
+
+AMD fabricante
+Ryzen produto 
+5 geração
+5600 geração e poder de processamento
+ 
+AM5 não entra na AM4
+AM4 não entra na AM5
+
+1 núcleo = 2 threads
+
+Com cooler: não precisa de um sistema de arrefecimento
+Sem cooler: precisa de sistema de arrefecimento 
