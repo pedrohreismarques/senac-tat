@@ -1,0 +1,4 @@
+Ethernet: 10 Mbps
+Fast Ethernet: 100Mbps
+GigabitEthernet: 1000Mbps (2500Mbps hoje)
+
