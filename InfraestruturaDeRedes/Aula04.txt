@@ -1,0 +1,17 @@
+Cabling: Especialista em cabos, responsável pelo cabeamento
+Certificação - Furukawa FCP
+------------------------------
+Level-1: UC-1 até UC-4 (Suporte Técnico)
+
+Level-2: Network: Switch LAN 
+				  Router WAN
+
+Level-3: Server: Windows
+                 GNU/Linux
+
+Level-4: Cloud: AWS 
+				GC 
+				Azure
+
+Level-5: Security: Firewall
+--------------------------------
