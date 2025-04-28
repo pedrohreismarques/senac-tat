@@ -42,3 +42,4 @@ enable
 ------------------------------------------
 
 !Visualizar Configurações 
+show running-config
