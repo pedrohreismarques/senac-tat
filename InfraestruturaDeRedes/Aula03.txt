@@ -1,0 +1,9 @@
+- Por padrão, todas as portas de Switchs estão ligadas e as de Roteador estão desligadas;
+
+- Todos os nomes de equipamentos de rede sempre: Em minúsculo, sem acentos, sem espaço e sem caracteres especiais (apenas traço);
+
+- Todo e qualquer equipamento de rede que ofereça serviço de rede, obrigatoriamente é estático;
+
+- Em uma rede pequeno pode deixar os IPs estáticos, mas em uma rede grande, já é um pouco mais difícil;
+
+- Redes sempre vai funcionar como Unicast (um pra um) e não como Broadcast (todos pra um);
