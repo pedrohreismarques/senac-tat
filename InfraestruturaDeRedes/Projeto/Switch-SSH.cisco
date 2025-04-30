@@ -1,0 +1,18 @@
+!Configurar o SSH
+enable
+   configure terminal
+        ! Configurar o Domínio
+        ip domain-name senac.br
+        !Habilitar o SSH
+        crypto key generate rsa general-keys modulus 1024
+        !Habilitar a Versão 2
+        ip ssh version 2
+        !Tempo de Conexão
+        ip ssh time-out 60
+        !Número de Sessão
+        ip ssh authentication-retries 2
+        !Sair de Tudo
+        end
+    !Salvar Tudo
+    write 
+-------------------------------------

@@ -1,0 +1,22 @@
+!Configuração das Lines VTY
+enable
+    configure terminal
+        !Configuração das Linhas Virtuais
+        line vty 0 4
+        !Configuração 
+        login local
+        !Configurar Senha de Acesso
+        password 123@senac
+        !Sincronismo dos LOGS
+        logging synchronous
+        !Tempo de Inatividade
+        exec-timeout 5 30
+        !Protocolo de Acesso Remoto
+        transport input ssh
+        !Sair de Tudo
+        end
+    !Salvar Tudo
+    write
+--------------------------------------------------------
+show running-config 
+show running-config | section include line vty
