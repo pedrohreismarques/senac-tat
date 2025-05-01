@@ -1,5 +1,4 @@
 - Roteador é sempre no final;
 - Quando falamos de interface de rede, tem porta ip, mas quando falamos de porta de rede, pode haver ou não ip;
 - Na Cisco, toda interface está desligada por padrão;
-- O que é RSA e MD5????
-- 
+- O que é RSA e MD5???
