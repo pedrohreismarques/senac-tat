@@ -1,0 +1,7 @@
+!Modo EXEC
+enable
+    !Configuração Data e Hora
+    clock set 16:05:00 05 May 2025
+    !Configuração Global
+    configure terminal
+        
