@@ -1,0 +1,21 @@
+Base2: Binário (0 e 1)
+
+Base10: Decimal (0 - 9)
+*O zero não existe na base 10
+
+---------------------------------------
+CONVERSÃO DE Decimal PARA Binário
+
+- Divisão por 2:
+
+CONVERSÃO DE Binário PARA Decimal
+
+- Potência com base 2:
+
+---------------------------------------
+0=ID de Rede (sempre par)
+1=Primeiro IP Válido (sempre ímpar)
+254=Último IP Válido (sempre par)
+255=Broadcast (sempre ímpar)
+
+
