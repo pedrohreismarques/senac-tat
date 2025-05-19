@@ -1,0 +1,46 @@
+!Configuração dos Gateways no Switch 3650
+enable 
+    configure terminal
+        ip routing
+        interface vlan 10
+            description Gateway VLAN 10
+            ip address 172.16.0.158 255.255.255.224
+            no shutdown
+            exit
+        interface vlan 20
+            description Gateway VLAN 20
+            ip address 172.16.0.190 255.255.255.224
+            no shutdown
+            exit
+        interface vlan 30
+            description Gateway VLAN 30
+            ip address 172.16.0.222 255.255.255.224
+            no shutdown
+            exit
+        interface vlan 40
+            description Gateway VLAN 40
+            ip address 172.16.0.254 255.255.255.224
+            no shutdown
+            exit
+        interface vlan 50
+            description Gateway VLAN 50
+            ip address 172.16.0.62 255.255.255.224
+            no shutdown
+            exit
+        interface vlan 60
+            description Gateway VLAN 60
+            ip address 172.16.0.94 255.255.255.224
+            no shutdown
+            end
+    copy running-config startup-config
+    !Visualizando as Configurações
+    show running-config
+    show ip interface brief
+    show ip route
+----------------------------------------------------------------------
+!Configuração do Gateway Switch 2960
+enable
+    configure terminal
+        ip default-gateway 172.16.0.97
+        end
+    copy running-config startup-config
