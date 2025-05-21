@@ -1,0 +1,9 @@
+!Configurando a Pesquisa (Ajuda) do DHCP Server
+enable
+    configure terminal
+        interface vlan 10
+            !Configurar Ajuda do DHCP
+            ip helper-address 172.16.0.33
+            end
+    copy running-config startup-config
+-----------------------------------------------------------

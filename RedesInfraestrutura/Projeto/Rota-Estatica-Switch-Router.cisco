@@ -1,0 +1,20 @@
+!Configuração da Interface de WAN Router 4321
+enable
+    configure terminal
+        interface GigabitEthernet 0/0/0
+            media-type sfp 
+            description Interface WAN com Router 1941
+            ip address 10.0.0.2 255.255.255.252
+            no shutdown
+            end
+    copy running-config startup-config
+--------------------------------------------------------------
+!Configuração da Interface de WAN Router 1941
+enable
+    configure terminal
+        interface GigabitEthernet 0/0/0
+            description Interface WAN com Router 4321
+            ip address 10.0.0.1 255.255.255.252
+            no shutdown
+            end
+    copy running-config startup-config
