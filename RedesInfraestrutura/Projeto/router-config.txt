@@ -1,0 +1,62 @@
+hostname SP
+interface fastEthernet 0/0
+ip address (IP DA FASTETHERNET)
+description PORTA LAN DE SP
+no shutdown 
+exit
+
+
+int s0/1
+ip (IP DA DCE OU DTE) (IP DA SERIAL)
+description PORTA WAN que liga SP com RJ
+no shutdown 
+clock rate 128000
+bandwidth 128
+exit
+router rip
+network (IP DO DESKTOP)
+network (IP DO SERIAL)
+SP(config-router)#^Z
+SP#wr
+
+
+
+Router>
+Router>ena
+Router#conf t
+Router(config)#hostname RJ
+RJ(config)#interface fastEthernet 0/1
+RJ(config-if)#ip add
+RJ(config-if)#ip address 192.168.20.1 255.255.255.0
+RJ(config-if)#no shutdown 
+RJ(config-if)#
+%LINK-5-CHANGED: Interface FastEthernet0/1, changed state to up
+
+%LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/1, changed state to up
+
+RJ(config-if)#description PORTA LAN do RJ
+RJ(config-if)#
+RJ(config-if)#exit
+RJ(config)#int s0/1
+RJ(config-if)#no shut
+RJ(config-if)#
+%LINK-5-CHANGED: Interface Serial0/1, changed state to up
+RJ(config-if)#
+%LINEPROTO-5-UPDOWN: Line protocol on Interface Serial0/1, changed state to up
+
+RJ(config-if)#
+RJ(config-if)#ip add 10.0.0.2 255.0.0.0
+RJ(config-if)#description PORTA WAN QUE LIGA RJ em SP
+RJ(config-if)#clock rate 128000
+This command applies only to DCE interfaces
+RJ(config-if)#bandwidth 128
+RJ(config-if)#exit
+RJ(config)#router rip
+RJ(config-router)#network 192.168.20.0
+RJ(config-router)#net 10.0.0.0
+RJ(config-router)#^Z
+RJ#
+%SYS-5-CONFIG_I: Configured from console by console
+
+RJ#
+RJ#copy run star
