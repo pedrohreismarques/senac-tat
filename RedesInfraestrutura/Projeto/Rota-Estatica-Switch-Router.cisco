@@ -18,3 +18,30 @@ enable
             no shutdown
             end
     copy running-config startup-config
+--------------------------------------------------------------
+!Configuração da Rota Estátca do Router 1941
+enable
+    configure terminal
+        !Rota Padrão
+        ip route 0.0.0.0 0.0.0.0 10.0.0.2 
+        end
+    copy running-config startup-config
+    show ip route
+--------------------------------------------------------------
+!Configuração do Switch Multilayer 3650
+enable
+    configure terminal
+        ip route 0.0.0.0 0.0.0.0 172.16.0.30
+        end
+    copy running-config startup-config
+    show ip route
+--------------------------------------------------------------
+!Configuração do Router 4321
+enable
+    configure terminal
+        ip route 0.0.0.0 0.0.0.0 172.16.0.29
+        ip route 192.168.1.0 255.255.255.0 10.0.0.1
+        end
+    copy running-config startup-config
+    show ip route
+--------------------------------------------------------------
